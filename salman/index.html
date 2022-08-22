@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>فرم ثبت نام موکب سلمان فارسی</title>
+    <link rel="stylesheet" href="./fonts/vazir.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="contianer">
+        <form class="form" action="send.php" method="post">
+            <h2 class="form-title" >فرم ثبت نام زائر</h2>
+            <label for="name">نام</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="نام زائر را وارد کنید" required>
+            <label for="name">نام خانوادگی</label>
+            <input type="name" name="name" id="name"  class="form-control invalid"required placeholder="نام خانوادگی زائر را وارد کنید">
+            <label for="tel">تلفن همراه</label>
+            <input type="tel" name="tel" id="tel"  class="form-control"required placeholder="تلفن همراه زائر را وارد کن">
+            <label for="city">شهر محل سکونت</label>
+            <input type="text" name="city" id="city" class="form-control"required placeholder="شهر محل سکونت زائر را وارد کنید">
+            <label for="tedad">تعداد زوار</label>
+            <input type="number" name="tedad" id="tedad" class="form-control"required placeholder="تعداد زوار را وارد کنید">    
+            <label for="day">تعداد شب های اقامت</label>
+            <input type="number" name="day" id="day" class="form-control" required placeholder="تعداد شب های اقامت زائر را وارد کنید">
+            <label for="rules" class="checkbox">
+                <input type="checkbox" name="rules" id="rules" required> قوانین را قبول دارم
+                <span class="checkmark"></span>
+            </label>
+            
+            
+            <button class="btn btn-success">ثبت نام</button>
+
+        </form>
+
+
+        
+   </div>
+</body>
+</html>
